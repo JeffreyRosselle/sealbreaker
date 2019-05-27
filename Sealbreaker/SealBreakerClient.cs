@@ -1,5 +1,5 @@
-﻿using Sealbreaker.Types;
-using System.Threading.Tasks;
+﻿using System.Threading.Tasks;
+using Sealbreaker.Types;
 
 namespace Sealbreaker
 {

@@ -3,14 +3,14 @@
   <PropertyGroup>
     <TargetFramework>netstandard2.0</TargetFramework>
     <PackageId>Sealbreaker</PackageId>
-    <PackageVersion>1.1.2</PackageVersion>
+    <PackageVersion>1.2.0</PackageVersion>
     <Authors>JeffreyRosselle</Authors>
     <PackageLicenseUrl>http://opensource.org/licenses/MS-PL</PackageLicenseUrl>
     <PackageProjectUrl>https://github.com/JeffreyRosselle/sealbreaker</PackageProjectUrl>
     <Description>
       Sealbreaker is a NuGet pacakage you can use to fetch your secrets or decrypt and encrypt your data with keys from the Azure Key Vault by using System Assigned Identity.
     </Description>
-    <PackageReleaseNotes>Initial Release - Small Fixes</PackageReleaseNotes>
+    <PackageReleaseNotes>Add dependancy injection</PackageReleaseNotes>
     <Copyright>Copyright ©2019 Jeffrey Rosselle</Copyright>
     <PackageTags>azure key vault secrets keys system assigned identity microsoft</PackageTags>
     <GeneratePackageOnBuild>false</GeneratePackageOnBuild>
@@ -19,6 +19,7 @@
   <ItemGroup>
     <PackageReference Include="Microsoft.Azure.KeyVault" Version="2.3.2" />
     <PackageReference Include="Microsoft.Azure.Services.AppAuthentication" Version="1.1.0-preview" />
+    <PackageReference Include="Microsoft.Extensions.DependencyInjection.Abstractions" Version="2.2.0" />
   </ItemGroup>
 
 </Project>
