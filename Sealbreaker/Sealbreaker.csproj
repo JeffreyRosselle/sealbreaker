@@ -10,7 +10,7 @@
     <Description>
       Sealbreaker is a NuGet pacakage you can use to fetch your secrets or decrypt and encrypt your data with keys from the Azure Key Vault by using System Assigned Identity.
     </Description>
-    <PackageReleaseNotes>Add dependancy injection</PackageReleaseNotes>
+    <PackageReleaseNotes>Add dependency injection</PackageReleaseNotes>
     <Copyright>Copyright ©2019 Jeffrey Rosselle</Copyright>
     <PackageTags>azure key vault secrets keys system assigned identity microsoft</PackageTags>
     <GeneratePackageOnBuild>false</GeneratePackageOnBuild>
